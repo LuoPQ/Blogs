@@ -66,7 +66,7 @@ tags: markdown
 		}   
 
 3. 前后使用三个"\`"将代码包裹起来  
-```
+``` javascript
 var test = function(){
 	console.log("test");
 }
