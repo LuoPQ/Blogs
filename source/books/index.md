@@ -24,11 +24,13 @@ date: 2015-10-17 23:48:08
 
 
 
-[![代码大全](http://ec4.images-amazon.com/images/I/51pr526Ne8L.jpg)](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1445100209&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
+[![代码大全](http://ec4.images-amazon.com/images/I/51pr526Ne8L.jpg "代码大全")](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8-%E5%8F%B2%E8%92%82%E5%A4%AB%E2%80%A2%E8%BF%88%E5%85%8B%E5%BA%B7%E5%A5%88%E5%B0%94/dp/B0061XKRXA/ref=sr_1_1?ie=UTF8&qid=1445100209&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E5%A4%A7%E5%85%A8)
 
 
 
-[![CSS权威指南](http://ec8.images-amazon.com/images/I/51P-xHTkLYL.jpg)](http://www.amazon.cn/CSS%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E8%BF%88%E8%80%B6/dp/B0011F5SIC/ref=sr_1_1?ie=UTF8&qid=1445100257&sr=8-1&keywords=css%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
+[![CSS权威指南](http://ec8.images-amazon.com/images/I/51P-xHTkLYL.jpg "CSS权威指南")](http://www.amazon.cn/CSS%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97-%E8%BF%88%E8%80%B6/dp/B0011F5SIC/ref=sr_1_1?ie=UTF8&qid=1445100257&sr=8-1&keywords=css%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97)
+
+[![高性能Javascript](http://ec4.images-amazon.com/images/I/71X0GiGtXgL.jpg "高性能Javascript")](http://www.amazon.cn/%E9%AB%98%E6%80%A7%E8%83%BDJavaScript-%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF-%E6%B3%BD%E5%8D%A1%E6%96%AF/dp/B013SGB2AO/ref=sr_1_1?ie=UTF8&qid=1445260917&sr=8-1&keywords=%E9%AB%98%E6%80%A7%E8%83%BDjavascript)
 
 
 ---
