@@ -259,5 +259,8 @@ css代码
 
 #### 行内元素的盒模型
 行内元素也是有盒模型的，但是有几点要注意：
-1.行内元素可以设置margin-left和margin-right属性，无法设置margin-top和margin-bottom属性
-2.行内元素border和padding可以设置，但是border-top和padding-top到页面顶部后就不再增加
+1.对于非替换元素，比如a，span标签等
+（1）可以设置margin-left和margin-right属性，无法设置margin-top和margin-bottom属性
+（2）行内元素border和padding可以设置，但是border-top和padding-top到页面顶部后就不再增加
+2.对于替换元素，比如input，img标签
+margin，padding，border都有效果
