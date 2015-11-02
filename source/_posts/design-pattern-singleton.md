@@ -1,6 +1,6 @@
 title: Javascript设计模式理论与实战：单例模式
 date: 2015-10-27 22:19:11
-tags: 设计模式
+tags: [设计模式,Javascript]
 categories: Web前端
 description: 在Javascript中，单例模式是一种最基本又经常用到的设计模式，可能在不经意间就用到了单例模式。本文将从最基础的理论开始，讲述单例模式的基本概念和实现，最后用一个例子来讲述单例模式的应用。
 ---
