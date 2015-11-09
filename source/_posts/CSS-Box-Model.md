@@ -251,8 +251,8 @@ html代码
 ```
 css代码
 ```
-    .p20 { padding: 20px; }
-    .p10 { padding: 10px; }
+    .m20 { margin: 20px; }
+    .m10 { margin: 10px; }
 ```
 ![](http://7xnjy3.com1.z0.glb.clouddn.com/box-model-demo8.jpg)
 如图所示，两个div标签的外边距分别是20px，10px，但是最终两个div之间的距离是20px，而不是20+10=30px
