@@ -259,7 +259,7 @@ if(node.parentNode){
 #### replaceChild
 replaceChild用于使用一个节点替换另一个节点，用法如下
 ```
-parent.replaceNode(newChild,oldChild);
+parent.replaceChild(newChild,oldChild);
 ```
 newChild是替换的节点，可以是新的节点，也可以是页面上的节点，如果是页面上的节点，则其将被转移到新的位置
 oldChild是被替换的节点
