@@ -12,5 +12,5 @@ date: 2015-10-13 08:37:38
 
 ### Contact Me
 QQ： 284973314  
-Email： 284973314@qq.com
+Email： <a href="mailto:lpq@luopq.com">lpq@luopq.com</a>
 Weibo:  [weibo.com/lrzw32](http://weibo.com/lrzw32)
