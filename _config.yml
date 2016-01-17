@@ -70,6 +70,8 @@ plugins:
 - hexo-generator-feed
 
 
+skip_render: demo/**
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
