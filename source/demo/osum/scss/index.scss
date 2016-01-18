@@ -1,0 +1,441 @@
+﻿@import 'mixins.scss';
+
+.banner-box {
+    position: relative;
+    top: -12px;
+}
+
+.banner {
+    height: 40rem;
+
+    li {
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding-top: 8%;
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+    }
+
+    .video-box {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+
+        video {
+            width: auto;
+            height: auto;
+            min-height: 100%;
+            min-width: 100%;
+        }
+    }
+
+    .video-overlay {
+        background: #000;
+        opacity: 0.6;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        top: 0;
+    }
+}
+
+.banner-title {
+    font-size: 7rem;
+}
+
+.banner-text {
+    font-size: 2.2rem;
+    margin-top: 1.5rem;
+}
+
+.banner-oper {
+    margin-top: 8rem;
+
+    a {
+        font-size: 1.4rem;
+        display: inline-block;
+        padding: 1rem 1.5rem;
+    }
+}
+
+
+
+.banner-index {
+    bottom: 10%;
+    left: 48%;
+    position: absolute;
+    z-index: 99;
+
+    .active:after {
+        color: rgba(255, 255, 255, 0.4);
+    }
+}
+
+.icon-dot {
+    text-align: center;
+
+    &:after {
+        content: '\e609';
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 2rem;
+    }
+}
+
+%icon-base {
+    position: absolute;
+    z-index: 99;
+    padding: 25px 13px;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    top: 45%;
+}
+
+.icon-prev {
+    @extend %icon-base;
+
+    &:after {
+        content: '\e608';
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 2rem;
+    }
+}
+
+.icon-next {
+    right: 0;
+    @extend %icon-base;
+
+    &:after {
+        content: '\e60a';
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 20px;
+    }
+}
+
+.purchase, .view {
+    @include transition(all 0.3s);
+}
+
+.purchase {
+    color: #333;
+    background: #f9ce06;
+    border: 0.1rem solid #f9ce06;
+
+    &:hover {
+        color: #fff;
+        background: rgba(249, 206, 6, 0.8);
+    }
+}
+
+.view {
+    color: #fff;
+    border: 0.1rem solid #fff;
+
+    &:hover {
+        color: #333;
+        background: #fff;
+    }
+}
+
+.column-title {
+    margin: 0 auto 6rem;
+    color: #333;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 2rem;
+
+    &:after {
+        display: block;
+        margin: 0.8rem auto 2rem;
+        height: 0.3rem;
+        width: 5rem;
+        content: '';
+        background: #333;
+    }
+}
+
+.about {
+    padding-top: 10rem;
+}
+
+.about-text {
+    margin: 0 auto;
+    width: 92rem;
+    line-height: 1.6;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.about-logo {
+    margin: 7rem auto 10rem;
+    text-align: center;
+}
+
+.achieve {
+    padding: 10rem 0;
+    background: url(../image/milestone-bg-2.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .column-title {
+        color: #fff;
+
+        &:after {
+            background: #fff;
+        }
+    }
+}
+
+.achieve-list {
+    margin: 0 auto;
+    width: 108rem;
+}
+
+.achieve-item {
+    float: left;
+    width: 25%;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+
+    i {
+        display: block;
+        margin: 0 auto;
+        height: 9rem;
+        width: 9rem;
+        background: #f9ce06;
+        border-radius: 4.5rem;
+    }
+
+    strong {
+        display: inline-block;
+        margin: 3rem auto 1.5rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+.icon-project:before {
+    content: '\e601';
+    padding: 2.7rem;
+}
+
+.icon-coffee:before {
+    content: '\e604';
+    padding: 2.7rem;
+}
+
+.icon-good:before {
+    content: '\e603';
+    padding: 2.7rem;
+}
+
+.icon-article:before {
+    content: '\e602';
+    padding: 2.7rem;
+}
+
+.service {
+    padding-top: 10rem;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.service-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.2rem 11.5rem;
+    padding-bottom: 10rem;
+    background: #fff;
+    text-align: center;
+
+    i {
+        display: block;
+        margin: 3rem auto 2.8rem;
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+
+    strong {
+        display: block;
+        margin-bottom: 2rem;
+        color: #333;
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+.icon-direction, .icon-photo, .icon-star {
+    &:before {
+        padding: 1rem;
+        color: #f9ce06;
+        font-size: 3.2rem;
+    }
+}
+
+    .icon-direction:before {
+        content: '\e605';
+    }
+
+    .icon-photo:before {
+        content: '\e600';
+    }
+
+    .icon-star:before {
+        content: '\e606';
+    }
+
+.skill {
+    padding: 10rem 0 7rem;
+    background: url(../image/milestone-bg-3.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .column-title {
+        color: #fff;
+
+        &:after {
+            background: #fff;
+        }
+    }
+}
+
+.skill-list {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.skill-item {
+    display: inline-block;
+    width: 40%;
+    margin: auto 4% 5rem;
+
+    h3 {
+        font-style: italic;
+        font-weight: normal;
+    }
+
+    p {
+        height: 1.2rem;
+        background: #f9ce06;
+    }
+}
+
+.works {
+    margin-bottom: 5rem;
+    padding-top: 10rem;
+    color: #333;
+}
+
+%type-active {
+    color: #f9ce06;
+    border: 0.1rem solid #f9ce06;
+}
+
+.works-types {
+    text-align: center;
+
+    a {
+        display: inline-block;
+        margin: auto 0.5rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.4rem;
+        border: 0.1rem solid #bbb;
+        @include transition(all 0.5s);
+
+        &:hover {
+            @extend %type-active;
+        }
+    }
+
+    .active {
+        @extend %type-active;
+    }
+}
+
+.works-list {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+.works-item {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    margin: 1%;
+
+    img {
+        width: 100%;
+        vertical-align: middle;
+        @include transition(all 1s);
+    }
+
+    &:hover img {
+        @include transform(scale(1.2));
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        background: rgba(34, 34, 34, 0.80);
+        opacity: 0;
+        @include transition(all 0.5s);
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .info {
+        margin-top: 30%;
+        @include transform(translate3d(0, 100%, 0));
+        @include transition(all 0.5s);
+    }
+
+    &:hover .info {
+        @include transform(translate3d(0, 0, 0));
+    }
+}
+
+.works-viewmore {
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    color: #333;
+    border: 0.1rem solid #333;
+    @include transition(all 0.5s);
+
+    &:hover {
+        background: #333;
+        color: #fff;
+    }
+}

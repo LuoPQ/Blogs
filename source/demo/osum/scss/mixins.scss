@@ -1,0 +1,52 @@
+﻿$prefixs: (-moz-,-ms-,-o-,-webkit-,"");
+
+@mixin transform ($prop: null) {
+    @if $prop == null {
+        @error "transform的$prop不能为空";
+    }
+    @else {
+        @each $val in $prefixs {
+            #{$val}transform: $prop;
+        }
+    }
+}
+
+@mixin transition($prop: null){
+     @if $prop == null {
+        @error "transform的$prop不能为空";
+    }
+    @else {
+        @each $val in $prefixs {
+            #{$val}transition: $prop;
+        }
+    }
+}
+
+@mixin keyframes($keyframesName) {
+    @-webkit-keyframes #{$keyframesName} {
+        @content;
+    }    
+    @-moz-keyframes #{$keyframesName} {
+        @content;
+    }
+    @-o-keyframes #{$keyframesName} {
+        @content;
+    }
+    @-ms-keyframes #{$keyframesName} {
+        @content;
+    }
+    @keyframes #{$keyframesName} {
+        @content;
+    }  
+}
+
+@mixin animation ($prop: null) {
+    @if $prop == null {
+        @error "animation的$prop不能为空";
+    }
+    @else {
+        @each $val in $prefixs {
+            #{$val}animation: $prop;
+        }
+    }
+}

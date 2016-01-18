@@ -1,0 +1,28 @@
+﻿.page { background: #f5f5f5; padding-top: 10rem; }
+.content { width: 80%; margin: 0 auto; }
+.main { float: left; width: 72%; }
+.side { float: right; width: 25%; }
+
+.article { margin-bottom: 4rem; }
+/*.cover { width: 100%; }*/
+.cover > img { width: 100%; height: 100%; display: block; }
+.article-content { padding: 5rem 6rem; background: #fff; }
+.info { padding-bottom: 2rem; }
+    .info > span { color: #ccc; letter-spacing: 3px; font-size: 1.2rem; text-transform: uppercase; }
+    .info a { color: #f9ce06; }
+
+.title > a { font-size: 2.8rem; color: #333; text-transform: uppercase; }
+    .title > a:hover { color: #F9CE06; }
+.summary { font-size: 1.5rem; margin-top: 2rem; }
+.read-more { background: #f9ce06; border: 0.1rem solid #f9ce06; padding: 0.8rem 1rem; color: #333; font-size: 1.4rem; margin: 4rem 0 1.5rem; display: inline-block; }
+    .read-more:hover { color: #fff; }
+.pager { margin-bottom: 6rem; overflow: hidden; }
+    .pager a { font-size: 1.4rem; }
+        .pager a:hover { color: #f9ce06; }
+    .pager .older { float: left; }
+    .pager .newer { float: right; }
+
+.links { margin: 0 1.5rem 5rem; font-size: 1.4rem; }
+    .links h3 { color: #333; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .links li { margin: 0.5rem 0; }
+        .links li > a:hover { color: #333; }

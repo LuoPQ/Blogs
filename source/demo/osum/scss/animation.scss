@@ -1,0 +1,51 @@
+﻿@import 'mixins.scss';
+
+$scale-zoomIn: scale3d(2,2,2);
+
+@include keyframes(zoomIn) {
+    0% {
+        opacity: 0;
+        @include transform($scale-zoomIn);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@include keyframes(zoomOut) {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+        @include transform($scale-zoomIn);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@include keyframes(slideInUp) {
+    0% {
+        @include transform(translate3d(0, 100%, 0));
+        visibility: visible;
+    }
+
+    100% {
+        @include transform(translate3d(0, 0, 0));
+    }
+}
+
+.zoomIn {    
+    @include animation(zoomIn 1s);
+}
+
+.zoomOut {    
+    @include animation(zoomOut 1s);
+}
+.slideInUp {    
+    @include animation(slideInUp 1s);
+}
