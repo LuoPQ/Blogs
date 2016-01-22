@@ -1,6 +1,6 @@
 title: ES6：下一版本的JavaScript的新特性
 date: 2016-01-20 17:36:02
-tags: [Javascript,ES6]
+tags: [Javascript,ES6,翻译]
 categories: Javascript
 description: 你可能已经听说过EMCAScript6（ES6）了，这是下一个版本的Javascript，它包含了一些很棒的新特性。这些特性拥有不同程度的复杂性，对于简单的脚本和复杂的应用程序都非常的有用。本文将盘点一些ES6的新特性，这些特性都可以用在你日常的编码中。请注意，只有现代浏览器才能支持这些新的ES6特性，虽然浏览器的支持各不相同。如果你需要兼容那些不支持ES6新特性的旧浏览器，我也会谈谈关于这方面的解决方案。
 info: 本文始发于码农网，原文地址：http://www.codeceo.com/article/es6-next-javascript.html 
