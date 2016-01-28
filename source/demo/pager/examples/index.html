@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> </title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <style>
+        .pager { display: inline-block; font: 12 px/21px "宋体"; margin-top: 20px; }
+            .pager a, .pager .flip, .pager .curPage { border: 1px solid #e3e3e3; display: inline-block; height: 22px; line-height: 22px; text-align: center; }
+            .pager a { background: none repeat scroll 0 0 #fff; color: #010101; text-decoration: none; width: 26px; }
+                .pager a:hover { background: none repeat scroll 0 0 #f1f1f1; }
+            .pager .noPage { color: #a4a4a4; }
+            .pager .curPage { background: none repeat scroll 0 0 #49abde; color: #ffffff; width: 26px; }
+            .pager .flip { width: 56px; }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="pager">
+
+        </div>
+    </div>
+    <input id="setIndex" value="设置页码为3（第4页）" type="button" />
+    <input id="getIndex" value="获取当前页码" type="button" />
+    <input id="setCount" value="设置项数为100" type="button" />
+    <script src="http://luopq.com/demo/lib/jquery-1.10.2.min.js"></script>
+    <script src="../src/jquery.pager.js"></script>
+    <script>
+
+
+        var pager = $(".pager").pager();
+        $("#setIndex").on("click", function () {
+            pager.setPageIndex(3);
+        })
+        $("#getIndex").on("click", function () {
+            alert(pager.getPageIndex(3));
+        })
+        $("#setCount").on("click", function () {
+            pager.setItemCount(100);
+        })
+    </script>
+</body>
+</html>
