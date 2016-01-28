@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        html, body, div, img { margin: 0; padding: 0; }
+        a { text-decoration: none; }
+        ul { list-style-type: none; }
+        .gallery { margin: 50px auto; position: relative; width: 600px; text-align: center; }
+        .prev { position: absolute; left: 0; top: 40%; }
+        .next { position: absolute; right: 0; top: 40%; }
+        .thumb-box { height: 104px; margin: 0 auto; position: relative; overflow: hidden; }
+        .thumb-list { height: 80px; }
+            .thumb-list li { margin: 0 3px; float: left; padding: 3px 0; }
+            .thumb-list img { height: 80px; width: 120px; display: block; }
+            .thumb-list .active { border: 3px solid #b6ff00; padding: 0; }
+        .prev-page { }
+        .next-page { }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img class="big" src="images/view1.jpg" />
+        <a href="javascript:;" class="prev btnPrev">上一个</a>
+        <a href="javascript:;" class="next btnNext">下一个</a>
+        <div class="thumb-box">
+            <ul class="thumb-list">
+                <li class="active">
+                    <a href="images/view1.jpg">
+                        <img src="images/view1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view2.jpg">
+                        <img src="images/view2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view3.jpg">
+                        <img src="images/view3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view4.jpg">
+                        <img src="images/view4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view5.jpg">
+                        <img src="images/view5.jpg" />
+                    </a>
+
+                </li>
+                <li>
+                    <a href="images/view6.jpg">
+                        <img src="images/view6.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view7.jpg">
+                        <img src="images/view7.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view8.jpg">
+                        <img src="images/view8.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view9.jpg">
+                        <img src="images/view9.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view1.jpg">
+                        <img src="images/view1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view2.jpg">
+                        <img src="images/view2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view3.jpg">
+                        <img src="images/view3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view4.jpg">
+                        <img src="images/view4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view5.jpg">
+                        <img src="images/view5.jpg" />
+                    </a>
+
+                </li>
+                <li>
+                    <a href="images/view6.jpg">
+                        <img src="images/view6.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view7.jpg">
+                        <img src="images/view7.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view8.jpg">
+                        <img src="images/view8.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="images/view9.jpg">
+                        <img src="images/view9.jpg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:;" class="prev-page prevPage">向前</a>
+        <a href="javascript:;" class="next-page nextPage">往后</a>
+    </div>
+    <script src="http://luopq.com/demo/lib/jquery-1.10.2.min.js"></script>
+    <script src="../src/jquery.gallery.js"></script>
+    <script>
+        $(".gallery").gallery({
+            bigImg: ".big",
+            prevImg: ".btnPrev",
+            nextImg: ".btnNext",
+            thumbBox: ".thumb-box",
+            thumbList: ".thumb-list",
+            prevPage: ".prevPage",
+            nextPage: ".nextPage",
+            selectClass: "active",
+        });
+    </script>
+</body>
+</html>
