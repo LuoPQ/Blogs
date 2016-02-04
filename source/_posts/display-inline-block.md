@@ -1,7 +1,7 @@
 title: 详解CSS display:inline-block的应用
 date: 2015-11-01 13:02:11
 tags: CSS 
-categories: Web前端
+categories: CSS
 description: 本文详细描述了display:inline-block的基础知识，产生的问题和解决方法以及其常见的应用场景，加深了对inline-block应用的进一步理解。
 ---
 本文详细描述了display:inline-block的基础知识，产生的问题和解决方法以及其常见的应用场景，加深了对inline-block应用的进一步理解。

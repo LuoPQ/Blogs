@@ -1,7 +1,7 @@
 title: Javascript操作DOM常用API总结
 date: 2015-11-30 23:46:59
 tags: dom
-categories: Web前端
+categories: Javascript
 description: 文本整理了javascript操作DOM的一些常用的api，根据其作用整理成为创建，修改，查询等多种类型的api，主要用于复习基础知识，加深对原生js的认识。
 ---
 文本整理了javascript操作DOM的一些常用的api，根据其作用整理成为创建，修改，查询等多种类型的api，主要用于复习基础知识，加深对原生js的认识。

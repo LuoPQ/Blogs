@@ -1,7 +1,7 @@
 title: 详解CSS position属性
 date: 2015-11-15 10:05:16
 tags: CSS
-categories: Web前端
+categories: CSS
 description: position是CSS中非常重要的一个属性，通过position属性，我们可以让元素相对于其正常位置，父元素或者浏览器窗口进行偏移。postion也是初学者容易搞不清楚状况的一个属性，本文将从最基础的知识讲起，谈谈关于positon属性的一些理论与应用。
 ---
 position是CSS中非常重要的一个属性，通过position属性，我们可以让元素相对于其正常位置，父元素或者浏览器窗口进行偏移。postion也是初学者容易搞不清楚状况的一个属性，本文将从最基础的知识讲起，谈谈关于positon属性的一些理论与应用。
