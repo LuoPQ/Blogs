@@ -11,6 +11,6 @@ date: 2015-10-13 08:37:38
 写代码，读书，旅行，音乐，健身
 
 ### Contact Me
-QQ： 284973314  
+QQ： <a href="http://wpa.qq.com/msgrd?v=3&uin=284973314&site=qq&menu=yes">284973314</a>
 Email： <a href="mailto:lpq@luopq.com">lpq@luopq.com</a>
 Weibo:  [weibo.com/lrzw32](http://weibo.com/lrzw32)
