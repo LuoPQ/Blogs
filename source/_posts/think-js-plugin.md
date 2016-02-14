@@ -1,4 +1,4 @@
-title: js插件开发的一些感想和心得
+title: javascript插件开发的一些感想和心得
 date: 2016-02-04 00:36:40
 tags: [javascript,插件编写]
 categories: Web前端
