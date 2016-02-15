@@ -1,7 +1,7 @@
 title: javascript插件开发的一些感想和心得
 date: 2016-02-04 00:36:40
 tags: [javascript,插件编写]
-categories: Web前端
+categories: Javascript
 description: 如果大家平时做过一些前端开发方面的工作，一定会有这样的体会：页面需要某种效果或者插件的时候，我们一般会有两种选择： 1、上网查找相关的JS插件，学习其用法;2、自己造轮子，开发插件。本文主要谈谈一些编写JS插件的感想和心得
 ---
 ### 起因
