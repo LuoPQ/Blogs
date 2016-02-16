@@ -163,3 +163,11 @@ $(".height0").on("click", function () {
 
 ### 总结说明
 本文总结说明了“隐藏”元素的几种方式，其中最常用的还是display:none和visibility:hidden。其他的方式只能算是奇技淫巧，并不推荐使用它们来隐藏元素，它们的真正用途应该不在隐藏元素，而是通过了解这些方法的特点，挖掘出其真正的使用场景。欢迎大家交流！！
+
+### 补充
+
+来自网友们提供的技巧：
+
+1、设置元素的position与left，top，bottom，right等，将元素移出至屏幕外
+
+2、设置元素的position与z-index，将z-index设置成尽量小的负数
