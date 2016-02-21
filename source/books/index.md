@@ -32,7 +32,7 @@ date: 2015-10-17 23:48:08
 
 [![高性能Javascript](http://ec4.images-amazon.com/images/I/71X0GiGtXgL.jpg "高性能Javascript")](http://www.amazon.cn/%E9%AB%98%E6%80%A7%E8%83%BDJavaScript-%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF-%E6%B3%BD%E5%8D%A1%E6%96%AF/dp/B013SGB2AO/ref=sr_1_1?ie=UTF8&qid=1445260917&sr=8-1&keywords=%E9%AB%98%E6%80%A7%E8%83%BDjavascript)
 
-
+[![代码整洁之道](http://ec4.images-amazon.com/images/I/41ddx-8un8L.jpg "代码整洁之道")](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93-%E9%A9%AC%E4%B8%81/dp/B0031M9GHC/ref=sr_1_1?ie=UTF8&qid=1445101201&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93)
 ---
 
 
@@ -41,4 +41,3 @@ date: 2015-10-17 23:48:08
 
 
 
-[![代码整洁之道](http://ec4.images-amazon.com/images/I/41ddx-8un8L.jpg "代码整洁之道")](http://www.amazon.cn/%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93-%E9%A9%AC%E4%B8%81/dp/B0031M9GHC/ref=sr_1_1?ie=UTF8&qid=1445101201&sr=8-1&keywords=%E4%BB%A3%E7%A0%81%E6%95%B4%E6%B4%81%E4%B9%8B%E9%81%93)
