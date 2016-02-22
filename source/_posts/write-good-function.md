@@ -25,7 +25,7 @@ public void CalculatePrice ();
 var sendMessage = function () {};
 var calculatePrice = function () {};
 ```
-驼峰命名法一般用于字段、局部变量、函数参数等等。，在JS中，函数也常用此方法命名。
+驼峰命名法一般用于字段、局部变量、函数参数等等。在JS中，函数也常用此方法命名。
 
 采用哪种命名规则并不绝对，最重要的是要遵守团队约定，语言规范。
 
