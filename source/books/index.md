@@ -37,10 +37,12 @@ date: 2015-10-17 23:48:08
 
 [![编写可维护的Javascript](http://ec4.images-amazon.com/images/I/81WeVi6GPhL.jpg "编写可维护的Javascript")](http://www.amazon.cn/%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84JavaScript-%E6%89%8E%E5%8D%A1%E6%96%AF/dp/B00BQ7RMW0/ref=sr_1_1?ie=UTF8&qid=1445100331&sr=8-1&keywords=%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84javascript)
 
+[![精通CSS:高级Web标准解决方案(第2版)](http://ec4.images-amazon.com/images/I/514WSI5AQzL._SX376_BO1,204,203,200_.jpg "精通CSS:高级Web标准解决方案(第2版)")](http://www.amazon.cn/%E7%B2%BE%E9%80%9ACSS-%E9%AB%98%E7%BA%A7Web%E6%A0%87%E5%87%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E5%B7%B4%E5%BE%B7/dp/B003IURKAM/ref=sr_1_1?s=books&ie=UTF8&qid=1456281697&sr=1-1&keywords=%E7%B2%BE%E9%80%9Acss%E9%AB%98%E7%BA%A7web%E6%A0%87%E5%87%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
+
 ## 正在读的书
 
+暂无书籍，欢迎推荐！
 
-[![精通CSS:高级Web标准解决方案(第2版)](http://ec4.images-amazon.com/images/I/514WSI5AQzL._SX376_BO1,204,203,200_.jpg "精通CSS:高级Web标准解决方案(第2版)")](http://www.amazon.cn/%E7%B2%BE%E9%80%9ACSS-%E9%AB%98%E7%BA%A7Web%E6%A0%87%E5%87%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88-%E5%B7%B4%E5%BE%B7/dp/B003IURKAM/ref=sr_1_1?s=books&ie=UTF8&qid=1456281697&sr=1-1&keywords=%E7%B2%BE%E9%80%9Acss%E9%AB%98%E7%BA%A7web%E6%A0%87%E5%87%86%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
 
 
 
