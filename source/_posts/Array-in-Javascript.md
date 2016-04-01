@@ -1,9 +1,10 @@
 title: 详解Javascript中的Array对象
-date: 2016-04-01 17:21:01
+date: 2016-04-01 18:11:22
 tags: Javascript
 categories: Javascript
 description: 本文详细总结了Javascript中Array对象，首先从基本概念开始说起，然后一一介绍了一些常用的数组方法，将其整理归类，最后解答了一些常见的面试题。
 ---
+
 在上一篇<a href="http://luopq.com/2016/02/28/Object-in-Javascript/" target="_blank" >文章</a>中，我们详细介绍了Object对象。在这一篇文章中，我们来说说Array对象。Array对象可以说是除Object对象之外用得最频繁的一个对象了。下面我们来详细说说Array这个对象。
 
 ### 基础介绍
@@ -38,7 +39,7 @@ console.log(arr3);  //[5, "aa", "bb"]
 var arr = [];
 console.log(arr);//[]  
 ```
-如果数组有一些初始值，可以之间写上去：
+如果数组有一些初始值，可以直接写上去：
 ```
 var arr2 = [5, "aa", "bb"];
 console.log(arr2);  //[5, "aa", "bb"]
@@ -278,7 +279,7 @@ push方法是一个比较常用的方法，和pop方法相反，它用来将一�
 shift方法将第一个元素删除，然后返回这个元素
 
 ##### unshift方法
-unshift在数组开头添加一个或多个元素，然后返回这个元素的长度
+unshift在数组开头添加一个或多个元素，然后返回这个元素的长度：
 ```
 var arr = [1, 2, 3];
 console.log(arr.unshift(3, 2, 1));//6
@@ -442,22 +443,19 @@ sort方法用来对数组进行排序，并返回排序后的数组。它包含�
 ```
 var arr = [2, 4, 6, 2, 4, 8, 11, 34];
 console.log(arr.sort().toString());  //11,2,2,34,4,4,6,8
-```
-如上结果所示，11排到了2前面，所以一般来说，我们要指定这个比较函数：
-```
-var arr = [2, 4, 6, 2, 4, 8, 11, 34];
-console.log(arr.sort().toString());//
 console.log(arr.sort(function (a, b) {
     return a - b;
 }).toString());  //2,2,4,4,6,8,11,34
-``` 
+```
+如上结果所示，不指定比较函数的话，11排到了2前面，所以一般来说，我们要指定这个比较函数。
+
 通过比较函数，我们可以来自定义数组排序的规则：
 （1）返回-1，则元素a则排在了b前面
 （2）返回0，位置不变
 （3）返回1，元素a排在b后面
 
 ##### reverse方法
-reverse方法是一个很简单的方法，它将数组元素的顺序进行点到，并返回这个数组。用法如下：
+reverse方法是一个很简单的方法，它将数组元素的顺序进行倒序，并返回这个数组。
 ```
 var arr = [1, 2, 3, 4, 5, 6, 7];
 console.log(arr.reverse()); //[7, 6, 5, 4, 3, 2, 1]
