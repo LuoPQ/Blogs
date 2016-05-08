@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="resume.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="http://luopq.com">
+                <img src="Images/PersonalLogo.png" />
+            </a>
+        </div>
+        <div class="contact">
+            <dl>
+                <dd class="icon-phone">13535-162-110</dd>
+                <dd class="icon-email"><a href="mailto:lpq@luopq.com">lpq@luopq.com</a></dd>
+            </dl>
+            <dl>
+                <dd class="icon-blog"><a href="http://luopq.com" target="_blank">luopq.com</a></dd>
+                <dd class="icon-github"><a href="http://github.com/LuoPQ" target="_blank">Github</a></dd>
+            </dl>
+        </div>
+        <div class="resume">
+            <a href="resume.pdf"><span class="icon-resume">简历下载</span></a>
+        </div>
+        <div class="nav">
+            <ul class="clearfix">
+                <li class="active"><a href="#profile">自我介绍</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#skill">主要技能</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="profile">
+            <h1>自我介绍</h1>
+            <p><b>骆鹏强</b>，90后码农一个，<b>2013</b>年毕业于<b>辽宁工程技术大学信息与计算科学</b>专业。专注web开发，之前做过一段时间的ASP.NET开发，现在专职前端开发。常潜水于互联网中，爱写代码，热爱<b>JavaScript</b>和<b>C#</b>，爱好旅行，健身，阅读，写代码。下面是我的联系方式，欢迎交流!!</p>
+            <dl class="">
+                <dd>手机：13535-162-110</dd>
+                <dd>邮箱：<a href="mailto:lpq@luopq.com">lpq@luopq.com</a></dd>
+            </dl>
+            <dl class="">
+                <dd>博客：<a href="http://luopq.com" target="_blank">luopq.com</a></dd>
+                <dd>Github：<a href="http://github.com/luopq" target="_blank">LuoPQ</a></dd>
+            </dl>
+        </div>
+        <div class="experience">
+            <h1>工作经历</h1>
+            <h3>
+                2013-2016：广州一起飞国际机票网
+            </h3>
+            <p>
+                自2013毕业后，进入的第一家公司工作负责web开发，主要使用C#和JavaScript，前后负责多个项目的开发。主要有下面几个：
+            </p>
+            <dl>
+                <dt><a href="http://www.woquguo.net" target="_blank">我去过社区</a></dt>
+                <dd>
+                    旅行社区网站，网站后端基于 ASP.NET MVC 开发，前端使用 jQuery
+                    和 knockout 等前端类库进行开发， 负责其中网站<b>全部功能</b>的实现， <b>网页效果</b>的
+                    实现以及大部分<b>前端组件</b>的开发以及优化。
+                </dd>
+                <dt><a href="http://hotel.yiqifei.com" target="_blank">一起飞国际机票网酒店频道</a></dt>
+                <dd>
+                    一起飞国际机票网的酒店频道开发， 负责网站功能的实现， 包括整个酒店从查询到预订的流程开发， 其中涉及到前端的<b>城市选择控件</b>， <b>日历控件</b>， <b>GoogleMaps</b>等等功能的实现。
+                </dd>
+            </dl>
+        </div>
+        <div class="skill">
+            <h1>主要技能</h1>
+            <dl>
+                <dt>JavaScript</dt>
+                <dd>
+                    熟悉JavaScript，负责项目所有的JavaScript部分，主要包括技术选型，功能实现，页面效果以及组件的开发。
+                </dd>
+                <dt>ASP.NET</dt>
+                <dd>
+                    熟悉ASP.NET，负责网站功能的实现、后台数据接口的开发以及优化
+                </dd>
+                <dt>HTML&CSS</dt>
+                <dd>
+                    能使用合适的结构编写兼容主流浏览器的页面布局以及前端组件样式的编写
+                </dd>
+            </dl>
+
+            <a href="http://luopq.com/works/" target="_blank">作品列表</a>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script src="http://luopq.com/demo/lib/jquery-1.10.2.min.js"></script>
+    <script src="http://luopq.com/demo/stickymenu/src/jquery.stickymenu.js"></script>
+    <script>
+        $(".header").stickymenu({
+            "stickyBarSelector": ".header",
+            "menuItemSelector": "li",
+        });
+    </script>
+</body>
+</html>

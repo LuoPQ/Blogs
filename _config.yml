@@ -72,6 +72,7 @@ plugins:
 
 skip_render: 
     - 'demo/**'
+    - 'resume/**'
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
